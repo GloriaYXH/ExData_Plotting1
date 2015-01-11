@@ -10,7 +10,7 @@ DT <- cbind(datetime, hpc0[,c(3:9)])
 
 #plot4
 png(file="plot4.png", width=480, height=480, units="px")
-par(mfrow=c(2,2), mar=c(4,2,2,1))
+par(mfrow=c(2,2), mar=c(4,4,2,1))
 
 with(DT, plot(datetime, Global_active_power, type="l", xlab="", ylab="Global Active Power"))
 
